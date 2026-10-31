@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DÆVID</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CRT overlays (decorative, never block clicks) -->
+  <div class="crt crt-scanlines" aria-hidden="true"></div>
+  <div class="crt crt-band" aria-hidden="true"></div>
+  <div class="crt crt-glass" aria-hidden="true"></div>
+  <div class="crt crt-bezel" aria-hidden="true"></div>
+
+  <div class="page">
+
+    <!-- ===== HEADER ===== -->
+    <header class="top-bar">
+      <span class="slot slot-profile">
+        <img src="images/profile.png" alt="Profile photo">
+      </span>
+
+      <h1 class="title" data-text="DÆVID">DÆVID<span class="cursor" aria-hidden="true"></span></h1>
+
+      <nav class="socials" aria-label="Redes sociales">
+        <a class="btn" href="https://instagram.com/dae.vyd" target="_blank" rel="noopener noreferrer" aria-label="Instagram (abre en una pestaña nueva)">
+          <span class="slot slot-logo"><img src="images/instagram.png" alt="Instagram logo"></span>
+          <span>Instagram</span>
+        </a>
+        <a class="btn" href="https://tiktok.com/@daevidlz" target="_blank" rel="noopener noreferrer" aria-label="TikTok (abre en una pestaña nueva)">
+          <span class="slot slot-logo"><img src="images/tiktok.png" alt="TikTok logo"></span>
+          <span>TikTok</span>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ===== WELCOME ===== -->
+      <section class="block welcome">
+        <p class="welcome-line">
+          <span class="prompt" aria-hidden="true">C:\&gt;</span>
+          <span class="tw" data-cursor="keep">Bienvenido al team, lee las reglas y si necesitas un asistente de IA, un lenguaje de programacion o un pingüino aqui estare</span>
+        </p>
+      </section>
+
+      <!-- ===== ROLES ===== -->
+      <section class="block roles" aria-labelledby="roles-title">
+        <h2 id="roles-title" class="section-title"><span class="tw" data-cursor="keep">&gt; Roles</span></h2>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <span class="slot slot-role"><img src="images/tux.png" alt="Tux"></span>
+              <h3><span class="tw">Tux</span></h3>
+            </div>
+            <p><span class="tw">Un pingüino</span></p>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <span class="slot slot-role"><img src="images/claude.png" alt="Claude"></span>
+              <h3><span class="tw">Claude</span></h3>
+            </div>
+            <p><span class="tw">Una de las mejores IA</span></p>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <span class="slot slot-role"><img src="images/cpp.png" alt="C++"></span>
+              <h3><span class="tw">C++</span></h3>
+            </div>
+            <p><span class="tw">Tu mejor lenguaje de programacion</span></p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="block foot"><p>— EOF —</p></footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
